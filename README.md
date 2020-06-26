@@ -42,7 +42,7 @@ mkdir app
 mkdir mysql
 ```
 
-If uses you want to create an own docker image, just extend the `Dockerfile` in this repository, then build:
+If you want to create an own docker image, just extend the `Dockerfile` in this repository, then build:
 
 ```sh
 docker build -t my_docker_name/my_repository_name
