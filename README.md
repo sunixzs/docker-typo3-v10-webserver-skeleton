@@ -64,7 +64,7 @@ docker run -i -t -d -p "80:80" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql
 
 **possibility 1**:
 
-Create a project matching `composer.json` on https://get.typo3.org/misc/composer/helper and log into the container:
+Create a project matching composer command on https://get.typo3.org/misc/composer/helper, log into the container and compose:
 
 ```sh
 docker exec -t -i my-new-website.tld bash
