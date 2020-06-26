@@ -1,0 +1,1 @@
+FROM sunixzs/typo3-v10-webserver:latest
